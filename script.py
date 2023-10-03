@@ -1,12 +1,10 @@
 import pandas as pd
 
-#users to devices só activated
-def jc_activated():
+
+def jc_activated(): #filtra apenas os usuários que estão ativos
     dfbaseJC = pd.read_csv('base_jc.csv')
     dfbaseJC['username'] = dfbaseJC['username'].astype(str)
     dfbaseJC_filtered = dfbaseJC[dfbaseJC['user_state'] == 'ACTIVATED']
-    
-    #dfbaseJC_filtered = dfbaseJC[((dfbaseJC['user_state'] == 'ACTIVATED') | (dfbaseJC['user_state'] == '')) & (~dfbaseJC['username'].str.startswith('admgloft.'))]    
     dfbaseJC_filtered.to_csv('jc_ACTIVATED.csv', index=False)
     return dfbaseJC_filtered
 
