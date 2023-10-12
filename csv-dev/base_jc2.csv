@@ -1,8 +1,7 @@
-username,email,hostname,serial_number ,user_state,device_os
-talita.nogueira,talita.nogueira@credpago.com,LOFT-SPW-3231,6DGRQK3,ACTIVATED,Linux
-felipe.pereira,felipe.pereira@credihome.com.br,LOFT-M0024,NXHQMAL00T,ACTIVATED,Mac
-natalya.carnaval,natalya.carnaval@loft.com.br,LOFT-W6141,D7R2DN3,ACTIVATED,Windows
-dejanira.oliveira,dejanira.oliveira@credpago.com,CP-CWB-W1098,C02H363ZQ05D,ACTIVATED,Max
-raquel.duarte,raquel.duarte@credihome.com.br,LOFT-W6354,9D3WXM3,ACTIVATED,Windows
-jovemmm,jovemmm@credihome.com.br,CP-CWB-W0630,MFK7W2XGV7,ACTIVATED,XuxaOS
-natalyal,natalyal@loft.com.br,LOFT-W61411,149072D79Z00,ACTIVATED,Windows
+username,email,resource_object_id,hostname,serial_number ,user_state,device_os
+talita.nogueira,talita.nogueira@credpago.com,5f982bcfbab64f15c6a10366,LOFT-SPW-3231,6DGRQK3,ACTIVATED,Linux
+felipe.pereira,felipe.pereira@credihome.com.br,5fa2ed61989cc4158bd2f24d,LOFT-M0024,NXHQMAL00T,ACTIVATED,Mac
+natalya.carnaval,natalya.carnaval@loft.com.br,5fa455c65f60365294d05338,LOFT-W6141,D7R2DN3,ACTIVATED,Windows
+dejanira.oliveira,dejanira.oliveira@credpago.com,5fabe19f123d433685bb6197,CP-CWB-W1098,C02H363ZQ05D,ACTIVATED,Max
+raquel.duarte,raquel.duarte@credihome.com.br,5fb3d98e143d3f69d9f374e7,LOFT-W6354,9D3WXM3,ACTIVATED,Windows
+jovemmm,jovemmm@credihome.com.br,5fb428841e4bc0640ce55437,CP-CWB-W0630,MFK7W2XGV7,ACTIVATED,XuxaOS
